@@ -1,0 +1,19 @@
+First I tried running just this command:
+
+docker run -it ubuntu:16.04 sh -c 'read website; sleep 3; curl http://$website;'
+
+but it did not work, because curl was not installed.
+So I ran this command to start the container:
+
+docker run -it ubuntu:16.04
+
+
+Now inside the container I ran these commands to install curl:
+
+apt-get update
+apt-get install curl
+
+
+Then this would work and return the correct html code when typing in "helsinki.fi":
+
+sh -c 'read website; sleep 3; curl http://$website;'

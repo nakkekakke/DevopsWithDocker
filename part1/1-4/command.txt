@@ -1,0 +1,3 @@
+To run the container, simply use command:
+
+docker run -it curler
