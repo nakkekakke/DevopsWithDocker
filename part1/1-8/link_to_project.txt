@@ -1,1 +1,0 @@
-https://cloud.docker.com/repository/docker/nakkekakke/calculator
