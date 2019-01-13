@@ -1,0 +1,3 @@
+Original size of the image: 157MB
+
+Size of the image after optimization: 5.93MB

@@ -1,0 +1,5 @@
+Frontend image old size: 396MB
+Backend image old size: 316MB
+
+Frontend image new size: 213MB
+Backend image new size: 134MB

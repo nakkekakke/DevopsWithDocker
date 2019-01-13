@@ -1,0 +1,11 @@
+FROM alpine:latest
+
+WORKDIR /app
+
+RUN apk add --no-cache curl && \ 
+    adduser -D app && \ 
+    chown -R app /app
+
+USER app
+
+CMD ["/bin/sh", "-c", "read website; sleep 3; curl http://$website;"]
